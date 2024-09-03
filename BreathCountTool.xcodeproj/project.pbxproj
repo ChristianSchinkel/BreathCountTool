@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA288D572C8785D200FBE78C /* BreathCountToolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288D562C8785D200FBE78C /* BreathCountToolApp.swift */; };
+		AA288D592C8785D200FBE78C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288D582C8785D200FBE78C /* ContentView.swift */; };
+		AA288D5B2C8785D200FBE78C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288D5A2C8785D200FBE78C /* Item.swift */; };
+		AA288D5D2C8785D300FBE78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA288D5C2C8785D300FBE78C /* Assets.xcassets */; };
+		AA288D602C8785D300FBE78C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA288D5F2C8785D300FBE78C /* Preview Assets.xcassets */; };
+		AA288D6A2C8785D400FBE78C /* BreathCountToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288D692C8785D400FBE78C /* BreathCountToolTests.swift */; };
+		AA288D742C8785D400FBE78C /* BreathCountToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288D732C8785D400FBE78C /* BreathCountToolUITests.swift */; };
+		AA288D762C8785D400FBE78C /* BreathCountToolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288D752C8785D400FBE78C /* BreathCountToolUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA288D662C8785D400FBE78C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA288D4B2C8785D200FBE78C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA288D522C8785D200FBE78C;
+			remoteInfo = BreathCountTool;
+		};
+		AA288D702C8785D400FBE78C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA288D4B2C8785D200FBE78C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA288D522C8785D200FBE78C;
+			remoteInfo = BreathCountTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA288D532C8785D200FBE78C /* BreathCountTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathCountTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA288D562C8785D200FBE78C /* BreathCountToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathCountToolApp.swift; sourceTree = "<group>"; };
+		AA288D582C8785D200FBE78C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA288D5A2C8785D200FBE78C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AA288D5C2C8785D300FBE78C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA288D5F2C8785D300FBE78C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA288D652C8785D400FBE78C /* BreathCountToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreathCountToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA288D692C8785D400FBE78C /* BreathCountToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathCountToolTests.swift; sourceTree = "<group>"; };
+		AA288D6F2C8785D400FBE78C /* BreathCountToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreathCountToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA288D732C8785D400FBE78C /* BreathCountToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathCountToolUITests.swift; sourceTree = "<group>"; };
+		AA288D752C8785D400FBE78C /* BreathCountToolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathCountToolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA288D502C8785D200FBE78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA288D622C8785D400FBE78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA288D6C2C8785D400FBE78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA288D4A2C8785D200FBE78C = {
+			isa = PBXGroup;
+			children = (
+				AA288D552C8785D200FBE78C /* BreathCountTool */,
+				AA288D682C8785D400FBE78C /* BreathCountToolTests */,
+				AA288D722C8785D400FBE78C /* BreathCountToolUITests */,
+				AA288D542C8785D200FBE78C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA288D542C8785D200FBE78C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA288D532C8785D200FBE78C /* BreathCountTool.app */,
+				AA288D652C8785D400FBE78C /* BreathCountToolTests.xctest */,
+				AA288D6F2C8785D400FBE78C /* BreathCountToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA288D552C8785D200FBE78C /* BreathCountTool */ = {
+			isa = PBXGroup;
+			children = (
+				AA288D562C8785D200FBE78C /* BreathCountToolApp.swift */,
+				AA288D582C8785D200FBE78C /* ContentView.swift */,
+				AA288D5A2C8785D200FBE78C /* Item.swift */,
+				AA288D5C2C8785D300FBE78C /* Assets.xcassets */,
+				AA288D5E2C8785D300FBE78C /* Preview Content */,
+			);
+			path = BreathCountTool;
+			sourceTree = "<group>";
+		};
+		AA288D5E2C8785D300FBE78C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA288D5F2C8785D300FBE78C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA288D682C8785D400FBE78C /* BreathCountToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA288D692C8785D400FBE78C /* BreathCountToolTests.swift */,
+			);
+			path = BreathCountToolTests;
+			sourceTree = "<group>";
+		};
+		AA288D722C8785D400FBE78C /* BreathCountToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA288D732C8785D400FBE78C /* BreathCountToolUITests.swift */,
+				AA288D752C8785D400FBE78C /* BreathCountToolUITestsLaunchTests.swift */,
+			);
+			path = BreathCountToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA288D522C8785D200FBE78C /* BreathCountTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA288D792C8785D400FBE78C /* Build configuration list for PBXNativeTarget "BreathCountTool" */;
+			buildPhases = (
+				AA288D4F2C8785D200FBE78C /* Sources */,
+				AA288D502C8785D200FBE78C /* Frameworks */,
+				AA288D512C8785D200FBE78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreathCountTool;
+			productName = BreathCountTool;
+			productReference = AA288D532C8785D200FBE78C /* BreathCountTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA288D642C8785D400FBE78C /* BreathCountToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA288D7C2C8785D400FBE78C /* Build configuration list for PBXNativeTarget "BreathCountToolTests" */;
+			buildPhases = (
+				AA288D612C8785D400FBE78C /* Sources */,
+				AA288D622C8785D400FBE78C /* Frameworks */,
+				AA288D632C8785D400FBE78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA288D672C8785D400FBE78C /* PBXTargetDependency */,
+			);
+			name = BreathCountToolTests;
+			productName = BreathCountToolTests;
+			productReference = AA288D652C8785D400FBE78C /* BreathCountToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA288D6E2C8785D400FBE78C /* BreathCountToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA288D7F2C8785D400FBE78C /* Build configuration list for PBXNativeTarget "BreathCountToolUITests" */;
+			buildPhases = (
+				AA288D6B2C8785D400FBE78C /* Sources */,
+				AA288D6C2C8785D400FBE78C /* Frameworks */,
+				AA288D6D2C8785D400FBE78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA288D712C8785D400FBE78C /* PBXTargetDependency */,
+			);
+			name = BreathCountToolUITests;
+			productName = BreathCountToolUITests;
+			productReference = AA288D6F2C8785D400FBE78C /* BreathCountToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA288D4B2C8785D200FBE78C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AA288D522C8785D200FBE78C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AA288D642C8785D400FBE78C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AA288D522C8785D200FBE78C;
+					};
+					AA288D6E2C8785D400FBE78C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AA288D522C8785D200FBE78C;
+					};
+				};
+			};
+			buildConfigurationList = AA288D4E2C8785D200FBE78C /* Build configuration list for PBXProject "BreathCountTool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA288D4A2C8785D200FBE78C;
+			productRefGroup = AA288D542C8785D200FBE78C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA288D522C8785D200FBE78C /* BreathCountTool */,
+				AA288D642C8785D400FBE78C /* BreathCountToolTests */,
+				AA288D6E2C8785D400FBE78C /* BreathCountToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA288D512C8785D200FBE78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA288D602C8785D300FBE78C /* Preview Assets.xcassets in Resources */,
+				AA288D5D2C8785D300FBE78C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA288D632C8785D400FBE78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA288D6D2C8785D400FBE78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA288D4F2C8785D200FBE78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA288D592C8785D200FBE78C /* ContentView.swift in Sources */,
+				AA288D5B2C8785D200FBE78C /* Item.swift in Sources */,
+				AA288D572C8785D200FBE78C /* BreathCountToolApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA288D612C8785D400FBE78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA288D6A2C8785D400FBE78C /* BreathCountToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA288D6B2C8785D400FBE78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA288D762C8785D400FBE78C /* BreathCountToolUITestsLaunchTests.swift in Sources */,
+				AA288D742C8785D400FBE78C /* BreathCountToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA288D672C8785D400FBE78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA288D522C8785D200FBE78C /* BreathCountTool */;
+			targetProxy = AA288D662C8785D400FBE78C /* PBXContainerItemProxy */;
+		};
+		AA288D712C8785D400FBE78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA288D522C8785D200FBE78C /* BreathCountTool */;
+			targetProxy = AA288D702C8785D400FBE78C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA288D772C8785D400FBE78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA288D782C8785D400FBE78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA288D7A2C8785D400FBE78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BreathCountTool/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NMH6T4VP3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.schinkel.christian.BreathCountTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA288D7B2C8785D400FBE78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BreathCountTool/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NMH6T4VP3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.schinkel.christian.BreathCountTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA288D7D2C8785D400FBE78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NMH6T4VP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.schinkel.christian.BreathCountToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreathCountTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreathCountTool";
+			};
+			name = Debug;
+		};
+		AA288D7E2C8785D400FBE78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NMH6T4VP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.schinkel.christian.BreathCountToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreathCountTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreathCountTool";
+			};
+			name = Release;
+		};
+		AA288D802C8785D400FBE78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NMH6T4VP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.schinkel.christian.BreathCountToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BreathCountTool;
+			};
+			name = Debug;
+		};
+		AA288D812C8785D400FBE78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NMH6T4VP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.schinkel.christian.BreathCountToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BreathCountTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA288D4E2C8785D200FBE78C /* Build configuration list for PBXProject "BreathCountTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA288D772C8785D400FBE78C /* Debug */,
+				AA288D782C8785D400FBE78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA288D792C8785D400FBE78C /* Build configuration list for PBXNativeTarget "BreathCountTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA288D7A2C8785D400FBE78C /* Debug */,
+				AA288D7B2C8785D400FBE78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA288D7C2C8785D400FBE78C /* Build configuration list for PBXNativeTarget "BreathCountToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA288D7D2C8785D400FBE78C /* Debug */,
+				AA288D7E2C8785D400FBE78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA288D7F2C8785D400FBE78C /* Build configuration list for PBXNativeTarget "BreathCountToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA288D802C8785D400FBE78C /* Debug */,
+				AA288D812C8785D400FBE78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA288D4B2C8785D200FBE78C /* Project object */;
+}
