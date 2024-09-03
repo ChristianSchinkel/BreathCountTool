@@ -15,6 +15,9 @@
 		AA288D6A2C8785D400FBE78C /* BreathCountToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288D692C8785D400FBE78C /* BreathCountToolTests.swift */; };
 		AA288D742C8785D400FBE78C /* BreathCountToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288D732C8785D400FBE78C /* BreathCountToolUITests.swift */; };
 		AA288D762C8785D400FBE78C /* BreathCountToolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288D752C8785D400FBE78C /* BreathCountToolUITestsLaunchTests.swift */; };
+		AA288D852C878CB700FBE78C /* RespiratoryRateCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288D842C878CB700FBE78C /* RespiratoryRateCountView.swift */; };
+		AA288D862C878CB700FBE78C /* RespiratoryRateCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288D842C878CB700FBE78C /* RespiratoryRateCountView.swift */; };
+		AA288D872C878CB700FBE78C /* RespiratoryRateCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288D842C878CB700FBE78C /* RespiratoryRateCountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,7 @@
 		AA288D6F2C8785D400FBE78C /* BreathCountToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreathCountToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA288D732C8785D400FBE78C /* BreathCountToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathCountToolUITests.swift; sourceTree = "<group>"; };
 		AA288D752C8785D400FBE78C /* BreathCountToolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathCountToolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA288D842C878CB700FBE78C /* RespiratoryRateCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RespiratoryRateCountView.swift; path = ../../../../../../RespiratoryRateCountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				AA288D562C8785D200FBE78C /* BreathCountToolApp.swift */,
-				AA288D582C8785D200FBE78C /* ContentView.swift */,
-				AA288D5A2C8785D200FBE78C /* Item.swift */,
+				AA288D832C878BCF00FBE78C /* Views */,
+				AA288D822C878BB500FBE78C /* DataModel */,
 				AA288D5C2C8785D300FBE78C /* Assets.xcassets */,
 				AA288D5E2C8785D300FBE78C /* Preview Content */,
 			);
@@ -128,6 +132,23 @@
 				AA288D752C8785D400FBE78C /* BreathCountToolUITestsLaunchTests.swift */,
 			);
 			path = BreathCountToolUITests;
+			sourceTree = "<group>";
+		};
+		AA288D822C878BB500FBE78C /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA288D5A2C8785D200FBE78C /* Item.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		AA288D832C878BCF00FBE78C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA288D582C8785D200FBE78C /* ContentView.swift */,
+				AA288D842C878CB700FBE78C /* RespiratoryRateCountView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA288D592C8785D200FBE78C /* ContentView.swift in Sources */,
+				AA288D852C878CB700FBE78C /* RespiratoryRateCountView.swift in Sources */,
 				AA288D5B2C8785D200FBE78C /* Item.swift in Sources */,
 				AA288D572C8785D200FBE78C /* BreathCountToolApp.swift in Sources */,
 			);
@@ -271,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA288D6A2C8785D400FBE78C /* BreathCountToolTests.swift in Sources */,
+				AA288D862C878CB700FBE78C /* RespiratoryRateCountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +303,7 @@
 			files = (
 				AA288D762C8785D400FBE78C /* BreathCountToolUITestsLaunchTests.swift in Sources */,
 				AA288D742C8785D400FBE78C /* BreathCountToolUITests.swift in Sources */,
+				AA288D872C878CB700FBE78C /* RespiratoryRateCountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
