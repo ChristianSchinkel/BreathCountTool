@@ -25,7 +25,7 @@ struct BreathCountToolApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RespiratoryRateCountView()
         }
         .modelContainer(sharedModelContainer)
     }
